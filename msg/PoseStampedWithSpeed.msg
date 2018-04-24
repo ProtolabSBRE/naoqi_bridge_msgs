@@ -1,3 +1,3 @@
 std_msgs/Header header
 geometry_msgs/PoseStamped pose_stamped
-float speed_percentage
+float64 speed_percentage
