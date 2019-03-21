@@ -9,5 +9,10 @@ float32[] joint_angles
 # fraction of max joint velocity [0:1]
 float32 speed
 
+# fractions of max joint velocity (between 0 and 1). If the size of
+# the speeds vector is not 0, speeds will be taken into account and not
+# speed.
+float32[] speeds
+
 # Absolute angle (=0, default) or relative change
 uint8 relative
